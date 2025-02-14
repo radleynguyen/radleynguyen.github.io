@@ -2218,9 +2218,9 @@ input, select, textarea {
 			}
 
 			.panel > *.color4 {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+				background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(56, 51, 48, 0.25) 25%, rgba(69, 89, 71, 0.25) 50%, rgba(134, 70, 34, 0.25));
 				background-size: 128px 128px, auto;
-				background-color: #353865;
+				background-color: #455947;
 			}
 
 			.panel > *.color1-alt {

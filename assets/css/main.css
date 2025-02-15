@@ -1518,7 +1518,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			box-shadow: inset 0 0 0 2px #864622;
-			color: #864622 !important;
+			color: #455947 !important;
 		}
 
 		input[type="submit"]:active,
@@ -1632,7 +1632,7 @@ input, select, textarea {
 		.button.primary {
 			background-color: white;
 			box-shadow: none;
-			color: #2e2b37 !important;
+			color: #455947 !important;
 		}
 
 			input[type="submit"].primary.color1,
@@ -1656,7 +1656,7 @@ input, select, textarea {
 			input[type="button"].primary.color3,
 			button.primary.color3,
 			.button.primary.color3 {
-				color: #864622 !important;
+				color: #455947 !important;
 			}
 
 			input[type="submit"].primary.color4,

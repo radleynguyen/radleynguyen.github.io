@@ -1106,7 +1106,6 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -0.75rem;
 		padding-left: 0;
-		text-align: right;
 	}
 
 		ul.actions li {
@@ -3737,3 +3736,7 @@ input, select, textarea {
             background-color: #C78853;
 	    color: white;
         }
+
+ul.actions1 {
+		justify-content: flex-end;
+}

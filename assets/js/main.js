@@ -770,10 +770,10 @@ function openModal() {
         function submitPassword() {
             let password = document.getElementById("passwordInput").value;
             if (password === "123456") { // Thay thế bằng logic xác thực thực tế
-                alert("Mật khẩu đúng!");
+                alert("Password is correct!");
                 closeModal();
             } else {
-                alert("Mật khẩu sai, vui lòng thử lại.");
+                alert("Incorrect password, please try again.");
             }
         }
 

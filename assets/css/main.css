@@ -3714,7 +3714,6 @@ input, select, textarea {
         .close {
             float: right;
             cursor: pointer;
-            font-size: 24px;
         }
 
         input {

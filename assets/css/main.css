@@ -3704,23 +3704,23 @@ input, select, textarea {
 
         .modal-content {
             background-color: #455947;
-            padding: 20px;
+            padding: 24px;
             margin: 15% auto;
-            width: 300px;
-            text-align: center;
+            width: 324px;
+            text-align: left;
             border-radius: 10px;
         }
 
         .close {
             float: right;
             cursor: pointer;
-            font-size: 20px;
+            font-size: 24px;
         }
 
         input {
             width: 100%;
             padding: 8px;
-            margin: 10px 0;
+            margin: 12px 0;
         }
 
         button {

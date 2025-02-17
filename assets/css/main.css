@@ -3707,7 +3707,7 @@ input, select, textarea {
             padding: 24px;
             margin: 15% auto;
             width: 327px;
-            text-align: center;
+            text-align: left;
             border-radius: 10px;
         }
 

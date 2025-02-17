@@ -757,3 +757,29 @@
 					});
 
 })(jQuery);
+
+// Password dialog box.
+function openModal() {
+            document.getElementById("passwordModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("passwordModal").style.display = "none";
+        }
+
+        function submitPassword() {
+            let password = document.getElementById("passwordInput").value;
+            if (password === "123456") { // Thay thế bằng logic xác thực thực tế
+                alert("Mật khẩu đúng!");
+                closeModal();
+            } else {
+                alert("Mật khẩu sai, vui lòng thử lại.");
+            }
+        }
+
+        window.onclick = function(event) {
+            let modal = document.getElementById("passwordModal");
+            if (event.target === modal) {
+                closeModal();
+            }
+        }

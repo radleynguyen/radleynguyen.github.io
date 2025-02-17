@@ -761,10 +761,18 @@
 // Password dialog box.
 function openModal() {
             document.getElementById("passwordModal").style.display = "block";
+	    scrollPosition = window.scrollY; // Lưu vị trí hiện tại
+            document.getElementById("passwordModal").style.display = "block";
+    	    document.body.style.position = "fixed";
+            document.body.style.top = `-${scrollPosition}px`;
         }
 
         function closeModal() {
             document.getElementById("passwordModal").style.display = "none";
+	    document.getElementById("passwordModal").style.display = "none";
+            document.body.style.position = "";
+            document.body.style.top = "";
+            window.scrollTo(0, scrollPosition); // Cuộn về vị trí ban đầu
         }
 
         function submitPassword() {

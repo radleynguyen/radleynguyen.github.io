@@ -12,17 +12,6 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" type="image/png" href="images/favicon-rn.png">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-		</script>
-		<script type="text/javascript">
-		   (function(){
-		      emailjs.init({
-		        publicKey: "Y_0W95wc9RwPzpgsg",
-		      });
-		   })();
-		</script>
-		<script src="script.js"/></script>
 	</head>
 	<body class="is-preload">
 
@@ -162,27 +151,24 @@
 								<div class="inner columns divided">
 									<div>
 									<div class="span-3-25">
-										<form onsubmit="sendMail(event)>
+										<form method="post" action="#">
 											<div class="fields">
 												<div class="field half">
 													<label for="name">Name</label>
-													<input type="text" name="name" id="name" required/>
+													<input type="text" name="name" id="name" />
 												</div>
 												<div class="field half">
 													<label for="email">Email</label>
-													<input type="email" name="email" id="email" required/>
-												</div>
-												<div class="field">
-													<label for="title">Title</label>
-													<input type="title" name="title" id="title" required/>
+													<input type="email" name="email" id="email" />
 												</div>
 												<div class="field">
 													<label for="message">Message</label>
-													<textarea name="message" id="message" rows="4" required></textarea>
+													<textarea name="message" id="message" rows="4" ></textarea>
 												</div>
 											</div>
-											<button type="button" class="button primary" id="sendBtn" onclick="sendMail()">SEND MESSAGE</button>
-											<div class="status" id="status"></div>
+												<ul class="actions">
+												<li><input type="submit" value="Send Message" class="button primary" onclick="sendMail()"/></li>
+												</ul>
 										</form>
 									</div>
 									</div>
